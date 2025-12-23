@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e3123bbab60e9e49b7e1e71491d63e7, type: 3}
+  m_Name: Sounds SO
+  m_EditorClassIdentifier: Assembly-CSharp::SmallHedge.SoundManager.SoundsSO
+  sounds:
+  - name: FOOTSTEP
+    volume: 0.25
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 892962212a4b74d1c9f578a3b6ea6439, type: 3}
+    - {fileID: 8300000, guid: a826bc3d758db43d6ae9caf415b63d1d, type: 3}
+  - name: CHOP
+    volume: 0.5
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 4c2332bc8245b474dad63074059bb755, type: 3}
+    - {fileID: 8300000, guid: f6aaac83be9e0493493aace800b76619, type: 3}
+  - name: MUSIC
+    volume: 0.5
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 2d75080d0851d4613ada1117d91ee417, type: 3}
+  - name: FRUIT
+    volume: 0.5
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 1cb61f83d60374c7389bb547431919e3, type: 3}
+    - {fileID: 8300000, guid: 062161c1897a54088a5430f8c197e1b8, type: 3}
+  - name: SODA
+    volume: 0.5
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: b6b608537288246c9a464915db27bf52, type: 3}
+    - {fileID: 8300000, guid: bcb9dda73ee914d3e8f252895f73f461, type: 3}
+  - name: ENEMY
+    volume: 0.5
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 0db8cac2749584a009540aa5671ee80d, type: 3}
+    - {fileID: 8300000, guid: 114514a3b3697484ebaa08f7fbf842d3, type: 3}
+  - name: DOWN
+    volume: 1
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: e2beefeb2273f4efe992adf5b8d67c29, type: 3}
